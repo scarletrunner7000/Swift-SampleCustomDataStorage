@@ -12,6 +12,7 @@
 		BCA3F4FC1D5DBF22001C8A36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCA3F4FA1D5DBF22001C8A36 /* Main.storyboard */; };
 		BCA3F4FE1D5DBF22001C8A36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCA3F4FD1D5DBF22001C8A36 /* Assets.xcassets */; };
 		BCA3F5011D5DBF22001C8A36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCA3F4FF1D5DBF22001C8A36 /* LaunchScreen.storyboard */; };
+		BCA3F5091D5DBF4C001C8A36 /* MyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA3F5081D5DBF4C001C8A36 /* MyData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		BCA3F4FD1D5DBF22001C8A36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BCA3F5001D5DBF22001C8A36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BCA3F5021D5DBF22001C8A36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCA3F5081D5DBF4C001C8A36 /* MyData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyData.swift; path = ../MyData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				BCA3F4FD1D5DBF22001C8A36 /* Assets.xcassets */,
 				BCA3F4FF1D5DBF22001C8A36 /* LaunchScreen.storyboard */,
 				BCA3F5021D5DBF22001C8A36 /* Info.plist */,
+				BCA3F5081D5DBF4C001C8A36 /* MyData.swift */,
 			);
 			path = SmapleCustomDataStorage;
 			sourceTree = "<group>";
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCA3F5091D5DBF4C001C8A36 /* MyData.swift in Sources */,
 				BCA3F4F91D5DBF22001C8A36 /* ViewController.swift in Sources */,
 				BCA3F4F71D5DBF22001C8A36 /* AppDelegate.swift in Sources */,
 			);
